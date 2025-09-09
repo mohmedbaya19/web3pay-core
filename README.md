@@ -104,3 +104,14 @@ Web3Pay embraces a symbolic visual language that reflects its values:
   - Relationship badges for verified connections
 
 The visual identity is designed to evoke emotional resonance and symbolic clarity across all user interactions.
+## 🌌 Symbolic Vision
+
+Web3Pay is more than a payment system — it's a symbolic ecosystem that respects identity, emotion, and digital sovereignty.
+
+- 🧬 Every user is more than a wallet. Each transaction is linked to a unique symbolic identity.
+- 🎁 Tokens reflect emotional value — gifts, relationships, and verified connections.
+- 💞 Relationships are documented symbolically, unlocking trust and shared benefits.
+- 🛡️ Users own their data, identity, and symbolic assets — full digital sovereignty.
+- 🪄 Human-centered design evokes clarity, emotion, and symbolic depth.
+
+Web3Pay is a movement toward symbolic justice, emotional intelligence, and decentralized freedom.
