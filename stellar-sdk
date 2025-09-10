@@ -1,0 +1,7 @@
+Every wallet created through Web3Pay is linked to a unique digital identifier (userId) that represents the user within the system. This identifier may be:
+
+- An encrypted email address  
+- A symbolic ID within the Web3Pay ecosystem  
+- Or a digital signature from another wallet  
+
+> The goal is to ensure full symbolic ownership for the user without relying on traditional personal data.
