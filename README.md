@@ -1,125 +1,191 @@
-## 🪙 Token Utility
 
-Web3Pay tokens serve multiple symbolic and functional roles:
+📄 Web3Pay — Official
+Documentation 3.0
 
-- 🔐 **Identity Verification**: Tokens validate decentralized identities.
-- 🎁 **Gift Redemption**: Users exchange tokens for exclusive symbolic gifts.
-- 💞 **Relationship Proof**: Verified relationships unlock token-based rewards.
-- 🚀 **Access Levels**: Tokens grant access to premium features and symbolic upgrades.
-- 📊 **Governance** *(future)*: Token holders may vote on symbolic system updates.
-# Web3Pay Core 💸🔐
-
-A decentralized payment system that links digital identities to wallets, transactions, and user traits.  
-Web3Pay is built with full-stack Web3 technologies to offer a secure, personalized, and symbolic payment experience.
+Date: August 31, 2025  
+Developer: Web3Pay Team  
+Email: webpay603@gmail.com  
 
 ---
 
-## 🧬 Digital Identity
+1. General Information
 
-Each user owns a unique symbolic identity, cryptographically linked to their wallet and transaction history.  
-This identity reflects personal traits, security preferences, and interaction patterns across the ecosystem.
+- Name: Web3Pay  
+- Version: 3.0  
+- Release Date: August 31, 2025  
+- Developer: Web3Pay Team  
+- Description:  
+  Web3Pay is a decentralized payment platform (dApp) that enables fast and easy sending and receiving of digital currencies. The system deducts 1% from each transaction to the founder’s wallet to ensure financial sustainability.
 
----
-
-## 🎁 Symbolic Gifts
-
-Web3Pay supports a luxury symbolic gift system tied to loyalty, interaction, and verified relationships.  
-These gifts are exclusive to the app and cannot be downloaded externally — designed to be rare and meaningful.
-
----
-
-## 💞 Relationship Verification
-
-A symbolic passport of love and trust.  
-Users can verify relationships through tokenized interactions, earning unique badges and gifts based on depth and history.
+- Contact:  
+  - Email: webpay603@gmail.com  
+  - Documentation: https://docs.web3pay.com
 
 ---
 
-## 🛡️ Cybersecurity Layer
+2. Vision
 
-Built on Stellar for secure transactions, Web3Pay uses multi-layer encryption to protect identities and data.  
-Every action is logged and verified within a flexible symbolic protection framework.
-
----
-
-## ⚙️ Technologies Used
-
-- **React**: Interactive front-end interface  
-- **Node.js**: Backend logic and API management  
-- **Stellar SDK**: Blockchain-based transaction layer  
-- **Web3**: Identity and wallet integration
+- Simplify global digital money transfers securely  
+- Enable smart contracts for full transparency  
+- Provide sustainable profit for the founder (1% per transaction)  
+- Expand to support Web3 and integrate with other platforms  
 
 ---
 
-## 🚀 Installation (for developers)
+3. Objectives
 
-```bash
-git clone https://github.com/mohmedbaya19/web3pay-core.git
-cd web3pay-core
-npm install
-npm start
-## 🪙 Token Utility
+- Enable peer-to-peer payments without intermediaries  
+- Facilitate decentralized operations via smart contracts  
+- Protect users’ funds and private keys  
+- Log all transactions transparently for auditing  
 
-Web3Pay tokens serve multiple symbolic and functional roles:
+---
 
-- 🔐 **Identity Verification**: Tokens validate decentralized identities.
-- 🎁 **Gift Redemption**: Users exchange tokens for exclusive symbolic gifts.
-- 💞 **Relationship Proof**: Verified relationships unlock token-based rewards.
-- 🚀 **Access Levels**: Tokens grant access to premium features and symbolic upgrades.
-- 📊 **Governance** *(future)*: Token holders may vote on symbolic system updates.
-## 🗺️ Symbolic Roadmap
+4. Founder’s Wallet
 
-Web3Pay is evolving through symbolic milestones:
+- Address: 0xFounderWalletMAIN123456789  
+- Purpose: Receives 1% from every transaction to sustain the system  
+- Supported Currencies: USDT, USDC, ETH, BTC, BNB, PI, TRX  
 
-- 🔍 **Phase 1 – Identity & Documentation**  
-  Build the symbolic identity system and finalize legal & technical documentation.
+Security Measures:
 
-- 🧪 **Phase 2 – MVP Launch**  
-  Release the first version with core features: identity, wallets, and token-based gifts.
+- Vault/HSM for key protection  
+- Multi-signature access control  
+- Monthly financial activity reports  
 
-- 🌐 **Phase 3 – Global Expansion**  
-  Integrate with international partners, support multi-chain wallets, and scale symbolic relationships.
+---
 
-- 🧠 **Phase 4 – AI & Emotional Intelligence**  
-  Embed symbolic emotional layers and smart interactions to personalize user experience.
+5. Official Transaction Flow
 
-- 🏛️ **Phase 5 – Governance & Decentralization**  
-  Enable token holders to vote on symbolic upgrades and system evolution.
-## 🌍 Partners & Expansion
+1. Pre-payment chat session  
+2. Biometric authentication  
+3. Payment approval decision  
 
-Web3Pay aims to build symbolic partnerships with global platforms, wallets, and identity systems.  
-The expansion strategy includes:
-- 🤝 Integrating with decentralized identity providers
-- 🌐 Supporting multi-chain wallets and cross-border payments
-- 🏛️ Collaborating with symbolic governance communities
-## 🎨 Visual Identity
+- If approved → Execute payment → Post-payment chat → Escrow/dispute system if needed → Update logs and notifications  
+- If not approved → Cancel payment / Retry authentication  
 
-Web3Pay embraces a symbolic visual language that reflects its values:
+---
 
-- 🟣 **Primary Color**: Tech Purple `#6C5CE7` — represents innovation, depth, and symbolic trust  
-- 🟢 **Accent Color**: Digital Green — symbolizes growth, clarity, and decentralized freedom  
-- 🪙 **Symbolic Elements**:  
-  - Token icons for identity and access  
-  - Gift icons for emotional value  
-  - Relationship badges for verified connections
+6. Pre-payment Chat Sessions
 
-The visual identity is designed to evoke emotional resonance and symbolic clarity across all user interactions.
-## 🌌 Symbolic Vision
+Users can communicate with recipients before any transaction.  
+Sessions are time-limited (default: 30 minutes) and all messages are logged for auditing.
 
-Web3Pay is more than a payment system — it's a symbolic ecosystem that respects identity, emotion, and digital sovereignty.
+---
 
-- 🧬 Every user is more than a wallet. Each transaction is linked to a unique symbolic identity.
-- 🎁 Tokens reflect emotional value — gifts, relationships, and verified connections.
-- 💞 Relationships are documented symbolically, unlocking trust and shared benefits.
-- 🛡️ Users own their data, identity, and symbolic assets — full digital sovereignty.
-- 🪄 Human-centered design evokes clarity, emotion, and symbolic depth.
+7. Biometric Authentication
 
-Web3Pay is a movement toward symbolic justice, emotional intelligence, and decentralized freedom.
- 🌀 Web3Pay transforms every interaction into a symbolic experience — where identity, emotion, and ownership converge.
- 🔐 Symbolic ownership is not just technical — it's emotional, legal, and personal.
- 🌍 Every transaction is a micro-act of sovereignty, recorded with dignity and encrypted with trust.
- 🎁 Digital gifts are not files — they are encrypted expressions of care, exclusivity, and symbolic value.
- 🧬 The system adapts to each user's rhythm, preserving their emotional logic and symbolic footprint.
- 🛡️ Protection is proactive: every symbolic asset is guarded by decentralized protocols and human-centered design.
- 📜 Web3Pay documents not just payments, but relationships, intentions, and emotional rights.
-🔄 The symbolic loop: identity → interaction → reward → documentation → evolution.
+Supported Methods: Fingerprint, Face Recognition  
+Users must pass biometric verification before approving payments.  
+Failed attempts can be retried; repeated failures trigger security alerts.
+
+---
+
+8. Payment System
+
+- 1% is automatically deducted from each transaction for the founder  
+- Net amount is sent to the recipient  
+- All transactions are timestamped and logged for auditing  
+
+---
+
+9. Escrow / Dispute Management
+
+Pending transactions can be placed in escrow if disputes arise.  
+Funds are released only after resolution.
+
+---
+
+10. Creator Earnings Conversion
+
+Supports converting creator earnings from USD to Web3 currencies (e.g., Pi).  
+Creators receive a digital proof (NFT) of the conversion.  
+Withdrawals to fiat require KYC and are processed via partners like Ramp and MoonPay.
+
+---
+
+11. Smart Contracts
+
+Supports ERC20 payments via smart contracts.  
+Contracts handle founder fees and net transfers automatically.  
+All transactions are logged and notifications issued for transparency.
+
+---
+
+12. Backend System
+
+Technologies: Node.js, Express, PostgreSQL, Redis  
+
+Key Endpoints:
+
+- /api/register → Register new user  
+- /api/login → User login  
+- /api/send → Send payments with 1% deduction  
+- /api/tx/:id → Transaction details  
+
+Database Structure:
+
+- Users Table: ID, email, password, role, balance, creation date  
+- Transactions Table: sender, receiver, currency, amount, status  
+- Audit Table: tracks all events for security  
+
+---
+
+13. Roadmap
+
+- Q3 2025: MVP with off-chain ledger, 1% founder fee, basic UI  
+- Q4 2025: Smart contracts on Testnet, KYC integration  
+- Q1 2026: Mainnet launch, mobile app release  
+
+---
+
+14. Post-Mining User Registration
+
+Users can register and log in using email or Pi Network ID.  
+KYC ensures identity and account security.  
+Each user receives a multi-currency wallet.  
+Smooth access is guaranteed after mining ends.
+
+---
+
+15. Black Swan Event Response
+
+In case of unexpected global events (Black Swan), Web3Pay will:
+
+- Assess and monitor risks  
+- Protect user funds  
+- Enhance system security  
+- Execute emergency protocols  
+- Distribute risk and adapt system  
+- Test and validate readiness  
+
+---
+
+16. Legal Appendix
+
+Disclaimer: This document is for informational purposes only. Legal and security consultation is recommended before launch.  
+- Technical Support: webpay603@gmail.com  
+- Security Contact: security@web3pay.com  
+
+---
+
+17. Global Multilingual Support
+
+Goal:  
+Ensure every user interacts with the system in their preferred language, whether primary or secondary, for maximum comfort and usability.
+
+Implementation Details:
+
+- Language detection via device, browser, or user profile  
+- UI elements, notifications, emails, and system messages appear in selected language  
+- Centralized translation files support nearly all Unicode languages  
+- New languages can be added without redeploying the system  
+- All chat content, alerts, and transaction instructions are auto-translated  
+- Users can change language anytime via profile settings  
+
+Benefits:
+
+- Global accessibility  
+- Reduced errors due to language barriers  
+- Increased trust and adoption worldwide  
+
