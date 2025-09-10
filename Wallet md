@@ -1,0 +1,55 @@
+Wallet.md — Web3Pay
+
+Last Updated: September 10, 2025  
+Purpose: Documenting supported wallets and integration methods  
+Developer: Web3Pay Team  
+Email: webpay603@gmail.com  
+
+---
+
+1. 🧭 Supported Wallets
+
+Web3Pay supports the following wallets for sending, receiving, and storing digital assets:
+
+- Pi Wallet (native integration)  
+- Stellar Wallet  
+- MetaMask (ERC20, BSC)  
+- Trust Wallet  
+- TronLink  
+
+---
+
+2. 🔗 Wallet Integration
+
+- Users connect wallets via Web3 modal, QR code, or deep link  
+- Wallet address is verified before any transaction  
+- Biometric authentication is required before wallet actions  
+- Wallets must support the selected network (e.g. ERC20, BEP20, Pi)
+
+---
+
+3. 🔐 Security Measures
+
+- Web3Pay does not store private keys  
+- Multi-signature support available for advanced users  
+- Vault/HSM recommended for enterprise-level protection  
+- All wallet actions are logged and timestamped for auditing  
+- Failed wallet connections trigger alerts and retry options
+
+---
+
+4. ⚠️ Troubleshooting
+
+- If wallet fails to connect:
+  - Check network compatibility  
+  - Ensure browser/app permissions are granted  
+  - Verify wallet version and update if needed  
+- For persistent issues, contact: webpay603@gmail.com
+
+---
+
+5. 📜 Legal Notice
+
+Web3Pay does not store or manage user wallets.  
+Users are responsible for securing their private keys and recovery phrases.  
+Refer to Legal.md for full terms and conditions.
