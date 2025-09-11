@@ -1,3 +1,10 @@
-git add package-lock.json
-git commit -m "Add package-lock.json for CI"
-git push origin main
+{
+  "name": "web3pay-core",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    // هنا تحط المكتبات اللي تستعملها
+  }
+}
