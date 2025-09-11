@@ -1,44 +1,40 @@
-# Fees.md
+# Web3Pay Fees Documentation
 
-## Web3Pay Symbolic Fees — Version 1.0
-
-This document outlines the symbolic fee structure applied to wallet creation, payment transactions, and optional services within the Web3Pay ecosystem.
+هذا الملف يشرح كل تفاصيل الرسوم المالية داخل مشروع Web3Pay، ويضمن وضوح كل بند مالي ضمن فلسفة السيادة الرقمية والملكية الرمزية لكل معاملة.
 
 ---
 
-### 💰 Fee Categories
+## 💰 أنواع الرسوم
 
-| Action              | Fee Type     | Amount      | Notes                                 |
-|---------------------|--------------|-------------|----------------------------------------|
-| Wallet Creation     | One-time     | 0 XLM       | Free for symbolic users                |
-| Payment Transaction | Per transfer | 0.00001 XLM | Stellar network base fee               |
-| Identity Binding    | Optional     | 0.1 XLM     | Encrypt and verify symbolic identity   |
-| Export Wallet       | Optional     | 0 XLM       | Free JSON export                       |
-
----
-
-### 🧩 Fee Logic
-
-- All fees are symbolic and minimal.
-- Web3Pay does not charge platform fees.
-- Only Stellar network fees apply during transactions.
-- Identity binding is optional but recommended for symbolic sovereignty.
+| النوع             | الوصف                                               |
+|-------------------|------------------------------------------------------|
+| `transaction_fee` | رسوم على كل عملية دفع داخل النظام                   |
+| `network_fee`     | رسوم الشبكة المرتبطة بـ Pi أو Stellar أو غيرها      |
+| `service_fee`     | رسوم إضافية مقابل خدمات مخصصة أو عمليات خاصة        |
+| `conversion_fee`  | رسوم تحويل العملات الرقمية أو الرموز بين الشبكات     |
 
 ---
 
-### 🔐 Transparency
+## 📊 طريقة الحساب
 
-- No hidden fees.
-- All fees are displayed before confirmation.
-- Users retain full control over their assets and keys.
+- يتم حساب `transaction_fee` كنسبة مئوية من قيمة العملية (مثلاً 1.5%)
+- يتم تحديد `network_fee` حسب الشبكة المستخدمة (Stellar, Pi, إلخ)
+- يتم تحديد `service_fee` حسب نوع الخدمة (API, توثيق, دعم فني)
+- يتم حساب `conversion_fee` حسب سعر السوق اللحظي وقت التحويل
+
+> كل عملية يتم توثيقها تلقائيًا داخل النظام، وتُربط بهوية المستخدم الرمزية.
 
 ---
 
-### 📎 Symbolic Philosophy
+## 🔐 الشفافية الرمزية
 
-Fees in Web3Pay are designed to:
-- Respect user sovereignty.
-- Avoid centralized monetization.
-- Encourage symbolic ownership over financial actions.
+- كل رسوم تُعرض للمستخدم قبل تنفيذ العملية
+- لا يتم خصم أي مبلغ بدون موافقة رمزية واضحة
+- يتم حفظ سجل كامل لكل عملية في واجهة المستخدم
+- يمكن للمستخدم مراجعة كل بند مالي من الهاتف مباشرة
 
-> Every fee is a symbolic gesture, not a commercial toll.
+---
+
+## 🧬 الهوية الرمزية
+
+كل بند مالي في هذا المشروع يمثل التزامًا رمزيًا بالعدالة والشفافية. لا توجد رسوم مخفية، ولا عمليات غير موثّقة. كل شيء يُبنى من الهاتف، ويُربط بهوية رقمية واضحة.
