@@ -45,3 +45,6 @@ jobs:
       - name: Notify on failure
         if: failure()
         run: echo "❌ Workflow failed. Check logs for details."
+concurrency:
+  group: web3pay-ci-${{ github.ref }}
+  cancel-in-progress: true
