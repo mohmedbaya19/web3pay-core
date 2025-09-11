@@ -1,41 +1,58 @@
-Wallet.md
+# Web3Pay Wallet System
 
-Symbolic Wallet Creation via Web3Pay
-
-Each wallet created through Web3Pay is linked to a unique digital identifier (userId) representing the user within the system.
-
-🔐 Wallet Structure
-- Digital ID (userId): Provided manually by the user.
-- Public Address: A valid Stellar public key.
-- Secret Key: Used for signing transactions. Must be stored securely.
-- Timestamp: Automatically recorded at creation.
-
-📎 Digital Identity
-
-Every wallet created through Web3Pay is linked to a unique digital identifier (userId) that represents the user within the system. This identifier may be:
-- An encrypted email address  
-- A symbolic ID within the Web3Pay ecosystem  
-- Or a digital signature from another wallet  
-
-> The goal is to ensure full symbolic ownership for the user without relying on traditional personal data.
-
-⚠️ Security Notes
-- Wallets are generated locally using stellar-sdk.
-- No data is transmitted to external servers.
-- The secret key is never exposed beyond the user interface.
-
-🧩 Additional Features
-- QR Code: Automatically generated for the public address.
-- Copy Button: Allows quick copying of the public address.
-- LocalStorage: Wallet is saved locally for persistence.
-`
+هذا الملف يشرح نظام المحافظ الرقمية داخل Web3Pay، ويضمن أن كل محفظة تُنشأ وتُدار من الهاتف، وتُربط بهوية رمزية شخصية.
 
 ---
 
-📁 ملفات المشروع
+## 🧬 فلسفة المحفظة
 
-| الملف         | الوظيفة                                      |
-|---------------|-----------------------------------------------|
-| CreateWallet.jsx | واجهة إنشاء المحفظة الرمزية وربطها بالهوية الرقمية |
-| Wallet.md    | توثيق رسمي شامل للمحفظة والهوية الرقمية         |
-| README.md    | يحتوي على وصف المشروع وإصدار الوثائق الرسمي     |
+- كل محفظة تمثل هوية رقمية مستقلة
+- تُنشأ وتُدار من الهاتف فقط
+- تُربط مباشرة بالمعاملات الرمزية
+- لا مركزية، لا وسطاء، فقط سيادة شخصية
+
+---
+
+## 🛠️ إنشاء المحفظة
+
+يتم إنشاء المحفظة عبر واجهة `CreateWallet.jsx`:
+
+- توليد مفتاح خاص وآخر عام
+- حفظ المفتاح الخاص محليًا فقط
+- ربط المحفظة بهوية المستخدم الرمزية
+- لا يتم إرسال أي بيانات إلى خوادم خارجية
+
+> كل محفظة تُنشأ من الهاتف، وتُربط مباشرة بهوية المستخدم داخل Web3Pay.
+
+---
+
+## 📤 تصدير المحفظة
+
+يتم تصدير المحفظة عبر `ExportWallet.jsx`:
+
+- تصدير المفتاح العام والخاص بصيغة مشفّرة
+- إمكانية حفظ النسخة على الجهاز أو إرسالها عبر واجهة آمنة
+- لا يتم تخزين أي نسخة على النظام المركزي
+
+---
+
+## 🔐 الحماية الرمزية
+
+- لا يمكن الوصول إلى المحفظة إلا من الجهاز الأصلي
+- كل عملية مرتبطة بتوقيع رقمي فريد
+- يتم فحص كل معاملة قبل تنفيذها
+- لا تُنفذ أي عملية بدون موافقة رمزية واضحة
+
+---
+
+## 🧩 الربط بالمعاملات
+
+- كل عملية دفع أو استقبال تُربط بمحفظة رمزية
+- يتم حفظ سجل كامل لكل معاملة داخل `Transactions.md`
+- يمكن للمستخدم مراجعة كل عملية من الهاتف مباشرة
+
+---
+
+## 🧠 الهوية الرمزية
+
+كل محفظة في Web3Pay تمثل امتدادًا لهوية المستخدم الرقمية. لا توجد محافظ مجهولة، ولا عمليات غير موثّقة. كل شيء يُبنى من الهاتف، ويُربط بالسيادة الرمزية الشخصية.
