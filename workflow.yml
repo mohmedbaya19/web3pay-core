@@ -65,3 +65,6 @@ jobs:
       - name: Notify on failure
         if: failure()
         run: echo "❌ Workflow failed. Check logs for details."
+# Web3Pay CI Workflow
+
+هذا التكوين يهدف إلى ضمان جودة الكود واستقراره في مشروع Web3Pay، عبر تنفيذ سلسلة من الفحوصات التلقائية عند كل تعديل على فرع `main`.
